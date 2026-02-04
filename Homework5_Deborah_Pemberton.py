@@ -9,4 +9,6 @@ middle_two_items = cats[middle_index - 1 : middle_index + 1]
 print(f"The middle two items in the list are:", *middle_two_items, sep=', ')
 print(f"The first and last items in the list are: {cats[0]}, {cats[-1]}")
 #Tuple Exercise:
-mytuple = ("tacos", "mashed potatoes", "beef stew", "french toast","chef salad")
+my_tuple = ("tacos", "mashed potatoes", "beef stew", "french toast","chef salad")
+for item in my_tuple:
+print(item)
