@@ -12,3 +12,4 @@ print(f"The first and last items in the list are: {cats[0]}, {cats[-1]}")
 my_tuple = ('taco', 'mashed potatoes', 'beef stew', 'french toast','chef salad')
 for item in my_tuple:
    print(item)
+copied_tuple = tuple(my_tuple)
