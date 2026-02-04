@@ -13,5 +13,5 @@ my_tuple = ('taco', 'mashed potatoes', 'beef stew', 'french toast','chef salad')
 for item in my_tuple:
    print(item)
 copied_tuple = tuple(my_tuple)
-copied_tuple = [0], "Burritos", [2], "French Fries")
-print(copied_tuple)
+copied_tuple[0] = "french fries"
+copied_tuple[3] = "apple pie"
