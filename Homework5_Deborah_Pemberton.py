@@ -16,5 +16,6 @@ copied_tuple = tuple(my_tuple)
 temporary_list = list(copied_tuple)
 temporary_list[0] = "french fries"
 temporary_list[3] = "apple pie"
-copied_tuple = tuple(temporary_lis)
-print(copied_tuple)
+copied_tuple = tuple(temporary_list)
+for item in copied_tuple:
+      print(item)
